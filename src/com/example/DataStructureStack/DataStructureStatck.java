@@ -12,5 +12,9 @@ public class DataStructureStatck <E>{
         stackUsingLinkedList.push(30);
         stackUsingLinkedList.push(70);
         stackUsingLinkedList.display();
+        System.out.println("top value"+stackUsingLinkedList.peek());
+        stackUsingLinkedList.pop();
+        stackUsingLinkedList.pop();
+        System.out.println("top value"+stackUsingLinkedList.peek());
     }
 }
