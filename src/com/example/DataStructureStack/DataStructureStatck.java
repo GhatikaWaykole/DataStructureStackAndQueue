@@ -13,8 +13,9 @@ public class DataStructureStatck <E>{
         queuqUsingLinkedList.enqueue(60);
         queuqUsingLinkedList.display();
         System.out.println("queue front"+queuqUsingLinkedList.front.key);
-
-       // System.out.println("queue front"+queuqUsingLinkedList.front.key);
+        queuqUsingLinkedList.dqueue();
+        queuqUsingLinkedList.dqueue();
+       System.out.println("queue front"+queuqUsingLinkedList.front.key);
       /*  StackUsingLinkedList stackUsingLinkedList = new StackUsingLinkedList();
         stackUsingLinkedList.push(56);
         stackUsingLinkedList.push(30);
