@@ -52,7 +52,7 @@ public class StackUsingLinkedList<E>{
             temp = top;
             while (temp != null) {
                 System.out.print(temp.data);
-                System.out.print("->");
+                System.out.print("->"+temp.data);
                 temp = temp.link;
             }
         }
